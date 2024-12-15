@@ -1,6 +1,8 @@
+import style from "./AppButton.module.css"
+
 const AppButton = () => {
     return (
-        <button className="button">
+        <button className={style.button}>
             Leggi di più
         </button>
     )
